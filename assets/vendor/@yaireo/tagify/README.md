@@ -604,6 +604,7 @@ const App = () => {
         )
     }, [])
 
+{% raw %}
     return (
         <Tags
             whitelist={['item 1', 'another item', 'item 3']}
@@ -620,6 +621,7 @@ const App = () => {
         />
     )
 }
+{% endraw %}
 ```
 
 To gain full access to Tagify's (instance) inner methods, A custom `ref` can be used:
